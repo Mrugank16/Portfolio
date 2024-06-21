@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - My Portfolio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    /* Inline styles for specific elements */
+    
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #37474f; /* Dark blue-gray background */
+      box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Dark box shadow */
+      text-align: left; /* Adjusted text alignment */
+    }
+    main h1 {
+      font-size: 36px;
+      margin-bottom: 20px; /* Increased bottom margin */
+      color: #fff; /* White text */
+    }
+    section {
+      margin-bottom: 20px; /* Added spacing between sections */
+      padding: 15px;
+      background-color: #263238; /* Darker blue-gray background for sections */
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle box shadow */
+    }
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff; /* White text */
+    }
+    section p {
+      font-size: 16px;
+      color: #ccc; /* Light gray text */
+      margin-bottom: 5px;
+    }
+    section p a {
+      color: #4fc3f7; /* Blue link color */
+      text-decoration: none;
+    }
+    section p a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>My Projects</h1>
+    <section>
+      <h2>NeuroVision</h2>
+      <p>Description: This project implements a web application for classifying brain images into different categories using convolutional neural networks (CNNs). It is built using Flask for the backend and Keras for the neural network model. The application allows users to upload brain images, preprocess them, and obtain predictions. The model achieved an accuracy of 85% on a test dataset containing 10,000 images.</p>
+      <p>Technologies: Flask, Tensorflow, React</p>
+      <p><a href="https://github.com/Mrugank16/NeuroVision" target="_blank">GitHub</a> </p>
+    </section>
+    <section>
+      <h2>ProductBuddy</h2>
+      <p>Description: Implemented a Market Basket Analysis project utilizing Python’s Pandas and mlxtend libraries for data
+        preprocessing and association rule learning, achieving actionable insights into customer purchasing behavior.
+        Applied the Apriori algorithm to mine frequent itemsets and generate association rules, evaluating metrics such
+        as support, confidence, and lift to identify significant patterns.
+        Developed a recommendation system to suggest product offers at the basket stage and will enhance the
+        marketing strategies and maximize the profits for an e-commerce company</p>
+      <p>Technologies: Python, Pandas, mlxtend</p>
+      <p><a href="https://github.com/Mrugank16/ProductBuddy" target="_blank">GitHub</a></p>
+    </section>
+    <section>
+      <h2>PersonaVista</h2>
+      <p>Description: Developed a data preprocessing pipeline for marketing campaign data, including handling missing values,
+        feature engineering, and outlier removal.
+        Employed PCA for dimensionality reduction and Agglomerative Clustering for customer segmentation into
+        four distinct groups.
+        Conducted in-depth analysis of cluster characteristics to inform targeted marketing strategies</p>
+      <p>Technologies: Pandas, Yellowbrick, Scikit-learn, Matplotlib</p>
+      <p><a href="https://github.com/Mrugank16/PersonaVista" target="_blank">GitHub</a> </p>
+    </section>
+    
+  </main>
+  
+  <script src="/js/scripts.js"></script>
+</body>
+</html>
